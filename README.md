@@ -32,8 +32,12 @@
 ---
 
 ## 📫 Connect With Me
-
+<p>
+  <a href="https://www.linkedin.com/in/sakshi-b77816388" target="_blank">LinkedIn</a>
 <p>
   <a href="https://github.com/Sunaina55">GitHub</a>
 </p>
+
+<br>
+---
 Created by Sakshi
