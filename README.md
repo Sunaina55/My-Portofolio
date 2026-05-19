@@ -1,4 +1,8 @@
 # My-Portofolio
+<h1 align="center">Hi 👋, I'm Sakshi</h1>
+
+<h3 align="center">Frontend Developer | IIT BHU Student</h3>
+
 Portfolio website featuring
  <ul>
                 <li><a href="/about.html"> About Me </a></li>
