@@ -3,6 +3,12 @@
 
 <h3 align="center">Frontend Developer | IIT BHU Student</h3>
 
+## 🚀 About Me
+- 🌱 Currently learning DSA and Web Development
+- 💻 Building projects and improving my portfolio
+- 🎯 Goal: Become a strong software engineer
+
+
 Portfolio website featuring
  <ul>
                 <li><a href="/about.html"> About Me </a></li>
