@@ -1,56 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Contact Me</h1>
+      <h1>Contact Me</h1>
     </header>
     <main>
+      <section>
+        <h2>Get in Touch</h2>
 
-        <section>
+        <p>Email: <span>sakshi.student.che24@itbhu.ac.in</span></p>
 
-            <h2>Get in Touch</h2>
+        <p>Phone: <span>+91 7061642264</span></p>
+      </section>
 
-            <p>
-                Email: <span>sakshi.student.che24@itbhu.ac.in</span>
-            </p>
+      <section>
+        <h2>Profiles</h2>
 
-            <p>
-                Phone: <span>+91 7061642264</span>
-            </p>
+        <a href="https://www.linkedin.com/in/sakshi-b77816388" target="_blank"
+          >LinkedIn</a
+        >
 
-        </section>
+        <br />
 
-        <section>
-
-            <h2>Profiles</h2>
-
-            <a href="https://www.linkedin.com/in/sakshi-b77816388" target="_blank">LinkedIn</a>
-
-            <br>
-
-            <a href="https://github.com/Sunaina55" target="_blank">
-                GitHub
-            </a>
-
-        </section>
-
+        <a href="https://github.com/Sunaina55" target="_blank"> GitHub </a>
+      </section>
     </main>
 
     <footer>
+      <p>Thank you for visiting my portfolio.</p>
 
-        <p>Thank you for visiting my portfolio.</p>
+      <section>
+        <h2>Contact Form</h2>
 
+        <form>
+          <label for="name"> Name: </label>
+
+          <input type="text" id="name" name="username" value="XYZ name" />
+
+          <br /><br />
+
+          <label for="email"> Email: </label>
+
+          <input type="email" id="email" name="useremail" value="@gmail.com" />
+
+          <br /><br />
+
+          <label for="college"> College: </label>
+
+          <input
+            type="text"
+            id="college"
+            name="usercollege"
+            value="ABC college"
+          />
+
+          <br /><br />
+
+          <label> Gender: </label>
+          <label for="male">
+            <input type="radio" name="gender" value="Male" id="male" /> Male
+          </label>
+
+          <label for="female">
+            <input type="radio" name="gender" value="Female" id="female" />
+            Female
+          </label>
+
+          <br /><br />
+
+          <label for="skills"> Skills Interested In: </label>
+
+          <br /><br />
+
+          <label for="web-development">
+            <input
+              type="checkbox"
+              id="web-development"
+              value="Web Development"
+              name="skills"
+            />
+            Web Development
+          </label>
+<br />
+          <label for="cpp">
+            <input type="checkbox" id="cpp" value="C++" name="skills" />
+            C++
+          </label>
+<br />
+          <label for="react">
+            <input type="checkbox" id="react" value="React" name="skills" />
+            React.js
+          </label>
+<br />
+          <label for="javascript">
+            <input
+              type="checkbox"
+              id="javascript"
+              value="JavaScript"
+              name="skills"
+            />
+            JavaScript
+          </label>
+<br />
+          <label for="html-css">
+            <input
+              type="checkbox"
+              id="html-css"
+              name="skills"
+              value="HTML CSS"
+            />
+            HTML & CSS
+          </label>
+<br />
+          <label for="tailwind">
+            <input
+              type="checkbox"
+              id="tailwind"
+              name="skills"
+              value="Tailwind CSS"
+            />
+            Tailwind CSS
+          </label>
+<br />
+          <label for="git-github">
+            <input
+              type="checkbox"
+              id="git-github"
+              name="skills"
+              value="Git and GitHub"
+            />
+            Git & GitHub
+          </label>
+<br />
+          <label for="ui-ux">
+            <input
+              type="checkbox"
+              id="ui-ux"
+              name="skills"
+              value="UI/UX Design"
+            />
+            UI/UX Design
+          </label>
+
+          <br /><br />
+
+          <label for="role"> Current Role: </label>
+          <br />
+          <select name="userrole" id="role">
+            <option value="Student">Student</option>
+            <option value="Developer">Developer</option>
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="Designer">Designer</option>
+          </select>
+
+          <br><br>
+
+          <label for="message">Message: </label>
+          <br>
+          <textarea
+            id="message"
+            name="usermessage"
+            rows="5"
+            cols="50"
+            placeholder="Write your message here..."
+          ></textarea>
+
+          <br><br>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </section>
     </footer>
-
-
-
-</body>
-
+  </body>
 </html>
