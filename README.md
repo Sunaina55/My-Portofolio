@@ -30,10 +30,11 @@
 ## 🛠️ Tech Stack
 
 <p>
-  HTML • CSS • JavaScript • C++
+  HTML • CSS • JavaScript • C++ 
 </p>
 
 ---
+
 
 ## 📫 Connect With Me
 <p>
